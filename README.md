@@ -1,13 +1,14 @@
 # htmlpp
 
-You probably want a template engine... [inja](https://github.com/pantor/inja) looks nice.
+You probably want a template engine... [inja](https://github.com/pantor/inja) looks nice.  
 but if you're sure you don't, htmlpp will at least save you typing a few angle brackets.
+
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/cardillo/htmlpp/build)](https://github.com/cardillo/htmlpp/actions/workflows/build.yml)
 
 ## quick start
 
 ```cpp
 #include <html.hpp>
-using namespace html;
 ```
 
 that's it.  now you have access to the `html::` namespace will all the tags and attributes
@@ -15,7 +16,7 @@ you expect.
 
 ## example
 
-a more complete example, see [test/example.cpp] for the full source.
+a more complete example, see [example.cpp](test/example.cpp) for the full source.
 
 ```cpp
     server.run([](auto&& stream) {
