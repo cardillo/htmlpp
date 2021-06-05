@@ -13,7 +13,7 @@ all: $(BLDDIR)/test
 	$(BLDDIR)/test
 
 $(BLDDIR)/test: $(OBJECTS)
-	$(LINK.cpp) $(OUTPUT_OPTION) $^ -lgtest
+	$(LINK.cpp) $(OUTPUT_OPTION) $^ -pthread -lgtest
 
 $(BLDDIR)/%.o: $(SRCDIR)/test/%.cpp $(SRCDIR)/include/html.hpp | $(BLDDIR)/
 	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
