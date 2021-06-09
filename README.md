@@ -4,6 +4,7 @@ You probably want a template engine... [inja](https://github.com/pantor/inja) lo
 but if you're sure you don't, htmlpp will at least save you typing a few angle brackets.
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/cardillo/htmlpp/build)](https://github.com/cardillo/htmlpp/actions/workflows/build.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/cardillo/htmlpp)](https://app.codecov.io/gh/cardillo/htmlpp)
 
 ## quick start
 
